@@ -18,6 +18,7 @@ header {
   padding-right: 400px ;
   color: white;
 }
+
 img {
   float: inherit;
 }
@@ -27,7 +28,13 @@ img {
 
 /*********************SERVICES**********************************/
 /**************************************************************/
-
+.services {
+  background-image: url("../images/backgrounds/s_image.jpg");
+  color: white;
+  padding: 70px;
+  padding-left: 350px;
+  padding-right: 350px;
+}
 /*********************WHAT WE DO********************************/
 /*************************************************************/
 
