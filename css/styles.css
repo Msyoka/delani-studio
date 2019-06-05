@@ -43,3 +43,9 @@ img {
 
 /*********************CONTACT US*******************************/
 /*************************************************************/
+.contact {
+  background-image: url("../images/backgrounds/c_image.jpg");
+  height: 500px;
+  text-align: center;
+  color: white;
+}
