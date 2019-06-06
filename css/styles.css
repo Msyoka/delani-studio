@@ -8,20 +8,21 @@
 body {
   text-align: center;
 }
+h1 {
+  font-weight: bold;
+
+}
 /*********************HEADER***********************************/
 /***************************************************************/
 header {
   background-image: url("../images/backgrounds/h_img.jpg");
   text-align: center;
   padding: 150px ;
-  padding-left: 400px;
-  padding-right: 400px ;
+  padding-left: 300px;
+  padding-right: 300px ;
   color: white;
 }
 
-img {
-  float: inherit;
-}
 
 /*********************ABOUT US***********************************/
 /***************************************************************/
