@@ -49,6 +49,9 @@ header {
   padding-bottom: 50px;
   text-align: center;
 }
+#hide {
+  display: none;
+}
 /*********************CONTACT US*******************************/
 /*************************************************************/
 .contact {
@@ -58,8 +61,20 @@ header {
   text-align: center;
   color: white;
 }
+form {
+  background: inherit;
+}
+input, textarea {
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+}
 .social{
+  align-items: center;
   padding: 50px;
+  width: 700px;
   align-content: center;
+}
+.rowcenter {
 
+  align-content: center;
 }
