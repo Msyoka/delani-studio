@@ -12,4 +12,7 @@ $(document).ready(function() {
         $(".hide2").toggle();
       });
     });
-  
+
+onclick(){
+  alert("message recived "+name)
+}
