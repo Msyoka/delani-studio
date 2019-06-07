@@ -10,6 +10,10 @@ body {
 }
 h1 {
   font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
 
 }
 .p13 {
@@ -18,7 +22,7 @@ h1 {
 /*********************HEADER***********************************/
 /***************************************************************/
 header {
-  padding-top: 100px;
+  padding-top: 150px;
   width: 100%;
   height: 600px;
   background-image: url("../images/backgrounds/h_img.jpg");
@@ -37,6 +41,14 @@ footer {
 .about {
   padding: 50px;
 }
+.show, .show1, .show2 {
+  font-size: 13px;
+  font-weight: bold;
+}
+.hide, .hide1, .hide2 {
+  font-size: 15px;
+  font-weight: bold;
+}
 /*********************SERVICES**********************************/
 /**************************************************************/
 .services {
@@ -51,14 +63,44 @@ footer {
 .what {
   padding: 50px;
 }
+.hide, .hide1, .hide2 {
+  display: none;
+}
 /**********************PORTFOLIO*******************************/
 /****************************************************************/
 .portfolio {
   padding-bottom: 50px;
   text-align: center;
 }
-.hide, .hide1, .hide2 {
-  display: none;
+.mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+}
+
+.view:hover .mask {
+  opacity: 1;
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 /*********************CONTACT US*******************************/
 /*************************************************************/
@@ -94,6 +136,5 @@ button {
   padding-left: 400px;
 }
 .rowcenter {
-
   align-content: center;
 }
