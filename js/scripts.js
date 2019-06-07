@@ -12,3 +12,4 @@ $(document).ready(function() {
         $(".hide2").toggle();
       });
     });
+  
