@@ -12,8 +12,9 @@
         <img class="img-fluid" src="images/logo/logo.png" alt="">
         <h1>WELCOME</h1>
         <h1>TO DELANI STUDIO</h1>
-        <h2>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>
+        <h2 class="p13">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>
       </div>
+      <span></span>
       <footer><img class="img-fluid" src="images/mouse_click.png" alt=""></footer>
     </header>
     <div class="row">
@@ -43,23 +44,23 @@
         <div class="row">
           <div class="col">
             <div class="jumbotron">
-              <img src="images/services_icons/design_icon.png" alt="">
-              <h3 id="hide">DESIGN</h3>
-							<p id="hide">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual designs and workflows,solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+              <img class="show" src="images/services_icons/design_icon.png" alt="">
+              <h3 class="hide">DESIGN</h3>
+							<p class="hide">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual designs and workflows,solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
             </div>
           </div>
           <div class="col">
             <div class="jumbotron">
-              <img src="images/services_icons/dev_icon.png" alt="">
-              <h3 id="hide">DEVELOPMENT</h3>
-							<p id="hide"> All engineers are fluent in the latest enterprise, mobile and web development technologies. The collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair-programming.</p>
+              <img class="show1" src="images/services_icons/dev_icon.png" alt="">
+              <h3 class="hide1">DEVELOPMENT</h3>
+							<p class="hide1"> All engineers are fluent in the latest enterprise, mobile and web development technologies.<br> The collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair-programming.</p>
             </div>
           </div>
           <div class="col">
             <div class="jumbotron">
-              <img src="images/services_icons/product_icon.png" alt="">
-              <h3 id="hide">PRODUCT MANAGEMENT</h3>
-							<p id="hide">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always always ready to go live. This iterative process allows for changes as business requirements evolve. </p>
+              <img class="show2" src="images/services_icons/product_icon.png" alt="">
+              <h3 class="hide2">PRODUCT MANAGEMENT</h3>
+							<p class="hide2">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always always ready to go live.<br> This iterative process allows for changes as business requirements evolve. </p>
 
             </div>
           </div>
@@ -109,11 +110,12 @@
           <div id="blanks">
             <form class="" action="index.html" method="post">
               <div class="form-group">
-                <input type="text" name="name" placeholder="Name..."value=" class="form-control"">
-                <input type="text" name="email" placeholder="Email..."value=" class="form-control"">
+                <input type="text" name="name" placeholder="Name..." value="">
+                <input type="text" name="email" placeholder="Email..." value="" >
               </div>
               <div class="form-group">
-                <textarea name="message" rows="8" cols="80" placeholder="Write your text here..."></textarea>
+                <textarea name="message" rows="8" cols="80" placeholder="Write your text here..."></textarea><br>
+                <button type="send" name="button" class=" btn-sm">Send</button>
               </div>
             </form>
 
@@ -126,23 +128,14 @@
       <div class="container">
         <div class="row">
           <div class="rowcenter" >
-
               <img src="images/social_icons/behance.png" alt="">
-
               <img src="images/social_icons/dribble.png" alt="">
-
               <img src="images/social_icons/facebook.png" alt="">
-
               <img src="images/social_icons/flickr.png" alt="">
-
               <img src="images/social_icons/g_plus.png" alt="">
-
               <img src="images/social_icons/pinterest.png" alt="">
-
               <img src="images/social_icons/twitter.png" alt="">
-
               <img src="images/social_icons/stumble_upon.png" alt="">
-
               <img src="images/social_icons/skype.png" alt="">
             </div>
           </div>
@@ -150,5 +143,7 @@
       </div>
     </div>
     <footer><p>DELANI STUDIO</p><p>2019</p></footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
