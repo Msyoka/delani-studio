@@ -13,6 +13,10 @@ $(document).ready(function() {
       });
     });
 
-onclick(){
-  alert("message recived "+name)
-}
+    function send() {
+      var sideA = parseInt(document.getElementById('name').value);
+      var sideB = parseInt(document.getElementById('email').value);
+      var sideC = parseInt(document.getElementById('message').value);
+      alert(name + " We have received your message.Thank you."+ name);
+
+    }
